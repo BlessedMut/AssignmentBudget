@@ -45,7 +45,7 @@ if not budget_mapper:
         json.dump(budget_mapper, f)
 
 # Title and Sidebar
-st.title("Personal Finance Dashboard")
+st.title("Personal Finance Dashboard - Created by Linval Chisoko")
 st.sidebar.title("Menu")
 menu = st.sidebar.radio("Select an Option", ["Budget Management", "Budget Planning", "Reporting", "Data Visualization"])
 
@@ -173,4 +173,4 @@ elif menu == "Data Visualization":
 
 # Footer
 st.sidebar.write("---")
-st.sidebar.write("Personal Finance Dashboard - Powered by Streamlit")
+st.sidebar.write("Personal Finance Dashboard - Created by Linval Chisoko - +263 77 846 917 ")
